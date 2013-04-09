@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.0">
+  <sounds />
+  <images>
+    <image name="drone2">
+      <file name="drone2.png" size="811" />
+    </image>
+    <image name="title">
+      <file name="title.png" size="624" />
+    </image>
+    <image name="crosshair">
+      <file name="crosshair.png" size="282" />
+    </image>
+    <image name="button_campaign">
+      <file name="button_campaign.png" size="1997" />
+    </image>
+    <image name="button_manual">
+      <file name="button_manual.png" size="1626" />
+    </image>
+    <image name="button_quit">
+      <file name="button_quit.png" size="1089" />
+    </image>
+    <image name="main">
+      <file name="main.png" size="199595" />
+    </image>
+    <image name="map_small_001">
+      <file name="map_small_001.png" size="4781" />
+    </image>
+    <image name="bullet">
+      <file name="bullet.png" size="314" />
+    </image>
+    <image name="button_return">
+      <file name="button_return.png" size="1684" />
+    </image>
+    <image name="button_start">
+      <file name="button_start.png" size="1986" />
+    </image>
+    <image name="button_empty">
+      <file name="button_empty.png" size="830" />
+    </image>
+    <image name="button_rocket">
+      <file name="button_rocket.png" size="661" />
+    </image>
+    <image name="button_flare">
+      <file name="button_flare.png" size="1683" />
+    </image>
+    <image name="button_laser">
+      <file name="button_laser.png" size="544" />
+    </image>
+    <image name="button_bomb">
+      <file name="button_bomb.png" size="689" />
+    </image>
+    <image name="button_heat">
+      <file name="button_heat.png" size="507" />
+    </image>
+    <image name="button_gun">
+      <file name="button_gun.png" size="804" />
+    </image>
+    <image name="button_1">
+      <file name="button_1.png" size="397" />
+    </image>
+    <image name="button_2">
+      <file name="button_2.png" size="729" />
+    </image>
+    <image name="button_3">
+      <file name="button_3.png" size="764" />
+    </image>
+    <image name="button_4">
+      <file name="button_4.png" size="536" />
+    </image>
+    <image name="button_5">
+      <file name="button_5.png" size="678" />
+    </image>
+    <image name="button_6">
+      <file name="button_6.png" size="751" />
+    </image>
+    <image name="hangar">
+      <file name="hangar.png" size="14459" />
+    </image>
+    <image name="button_ready">
+      <file name="button_ready.png" size="1348" />
+    </image>
+    <image name="button_review">
+      <file name="button_review.png" size="1737" />
+    </image>
+    <image name="Rye-Patch-Reservoir-Nevada-NASA-ISS014-E-17916">
+      <file name="Rye-Patch-Reservoir-Nevada-NASA-ISS014-E-17916.png" size="463924" />
+    </image>
+    <image name="gun">
+      <file name="gun.png" size="485" />
+    </image>
+    <image name="heat">
+      <file name="heat.png" size="402" />
+    </image>
+    <image name="flare">
+      <file name="flare.png" size="1393" />
+    </image>
+    <image name="rocket">
+      <file name="rocket.png" size="399" />
+    </image>
+    <image name="laser">
+      <file name="laser.png" size="296" />
+    </image>
+    <image name="bomb">
+      <file name="bomb.png" size="538" />
+    </image>
+    <image name="manual">
+      <file name="manual.png" size="27445" />
+    </image>
+    <image name="bulletImpact1">
+      <file name="bulletImpact1.png" size="308" />
+    </image>
+    <image name="bulletImpact2">
+      <file name="bulletImpact2.png" size="405" />
+    </image>
+    <image name="bulletImpact3">
+      <file name="bulletImpact3.png" size="512" />
+    </image>
+    <image name="bulletImpact4">
+      <file name="bulletImpact4.png" size="453" />
+    </image>
+    <image name="bulletImpact5">
+      <file name="bulletImpact5.png" size="463" />
+    </image>
+  </images>
+  <behaviors />
+</assets>
