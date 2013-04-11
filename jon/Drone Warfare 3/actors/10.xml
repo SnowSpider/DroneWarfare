@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id902148" PGFVersion="0.19" GSCVersion="0.10.0">
+  <attributes>
+    <text id="name">Bullet</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">4</real>
+      <real id="height">8</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image">bullet</image>
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+    <real id="id658908" name="speed">300</real>
+  </attributes>
+  <behaviors>
+    <behavior id="id583769" class="ChangeVelocityAction" enabled="true">
+      <attributes>
+        <text id="name">Change Velocity</text>
+        <text id="bundleName">ChangeVelocity.behavior</text>
+        <angle id="direction">
+          <expression>
+            <string>vectorToAngle(</string>
+            <reference keypath="game.attributes.id836517" />
+            <string>-</string>
+            <reference keypath="game.attributes.id435238" />
+            <string>,</string>
+            <reference keypath="game.attributes.id766636" />
+            <string>-</string>
+            <reference keypath="game.attributes.id997333" />
+            <string>)+random(-</string>
+            <reference keypath="game.attributes.id204696" />
+            <string>, </string>
+            <reference keypath="game.attributes.id204696" />
+            <string>)</string>
+          </expression>
+        </angle>
+        <index id="space">1</index>
+        <real id="speed">
+          <expression>
+            <reference keypath="self.attributes.id658908" />
+          </expression>
+        </real>
+      </attributes>
+    </behavior>
+    <behavior id="id374688" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">0.5</real>
+        <boolean id="runToCompletion">true</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id890125" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id755226</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">0</real>
+            <real id="y">0</real>
+            <index id="positionSpace">0</index>
+            <index id="layerOrder">0</index>
+          </attributes>
+        </behavior>
+        <behavior id="id679659" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

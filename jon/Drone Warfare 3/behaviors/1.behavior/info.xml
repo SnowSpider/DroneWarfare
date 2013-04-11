@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info PGFVersion="0.19" GSCVersion="0.10.0">
+  <Type>Block</Type>
+  <Interface>RuleBehavior</Interface>
+  <ControllerClass>GSRuleBehaviorViewController</ControllerClass>
+  <DisplayName>Rule</DisplayName>
+  <ToolTip>Conditionally activate behaviors or actions</ToolTip>
+  <DisplayIndex>0</DisplayIndex>
+</info>

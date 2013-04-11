@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game title="My Great Project" GSCVersion="0.10.0" PGFVersion="0.19">
+  <tags />
+  <resolutionIndependence>0</resolutionIndependence>
+  <instructions>Add game instructions here.</instructions>
+  <resolution>0</resolution>
+  <longDescription>A simple game.</longDescription>
+  <prototypes>
+    <actor id="id840783" />
+    <actor id="id141850" />
+    <actor id="id629862" />
+    <actor id="id914189" />
+    <actor id="id909848" />
+    <actor id="id217811" />
+    <actor id="id430093" />
+    <actor id="id483439" />
+    <actor id="id121352" />
+    <actor id="id902148" />
+    <actor id="id228402" />
+    <actor id="id330953" />
+    <actor id="id776594" />
+    <actor id="id192368" />
+    <actor id="id101185" />
+    <actor id="id170873" />
+    <actor id="id318898" />
+    <actor id="id571597" />
+    <actor id="id641149" />
+    <actor id="id875959" />
+    <actor id="id287018" />
+    <actor id="id627900" />
+    <actor id="id379472" />
+    <actor id="id150919" />
+    <actor id="id164445" />
+    <actor id="id235445" />
+    <actor id="id272309" />
+    <actor id="id595129" />
+    <actor id="id218910" />
+    <actor id="id251772" />
+    <actor id="id644536" />
+    <actor id="id449369" />
+    <actor id="id749825" />
+    <actor id="id755226" />
+    <actor id="id941911" />
+    <actor id="id721410" />
+    <actor id="id157688" />
+    <actor id="id235198" />
+    <actor id="id790358" />
+    <actor id="id580770" />
+    <actor id="id713734" />
+    <actor id="id592037" />
+    <actor id="id775697" />
+  </prototypes>
+  <plugins />
+  <scenes>
+    <scene id="id392350" />
+    <scene id="id560799" />
+    <scene id="id763717" />
+    <scene id="id201760" />
+    <scene id="id749124" />
+    <scene id="id276934" />
+    <scene id="id409478" />
+    <scene id="id885961" />
+    <scene id="id679976" />
+    <scene id="id158878" />
+    <scene id="id625446" />
+    <scene id="id387852" />
+    <scene id="id289467" />
+    <scene id="id324942" />
+    <scene id="id475612" />
+    <scene id="id432270" />
+    <scene id="id133050" />
+    <scene id="id973133" />
+  </scenes>
+  <attributes>
+    <text id="name">Drone Warfare</text>
+    <real id="time">0</real>
+    <size id="displaySize">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <text id="actorTags" />
+    <integer id="id435238" name="x_drone">0</integer>
+    <integer id="id997333" name="y_drone">0</integer>
+    <angle id="id219305" name="direction_drone">0</angle>
+    <real id="id759193" name="range_current">150</real>
+    <real id="id716930" name="range_max">250</real>
+    <real id="id376666" name="range_min">50</real>
+    <real id="id754006" name="climeRate">4</real>
+    <integer id="id836517" name="x_cross">0</integer>
+    <integer id="id766636" name="y_cross">0</integer>
+    <integer id="id766028" name="lastMission">0</integer>
+    <text id="id451895" name="wpn1_id">"empty"</text>
+    <text id="id707540" name="wpn2_id">"empty"</text>
+    <text id="id355489" name="wpn3_id">"empty"</text>
+    <text id="id165054" name="wpn4_id">"empty"</text>
+    <text id="id297422" name="wpn5_id">"empty"</text>
+    <text id="id734785" name="wpn6_id">"empty"</text>
+    <integer id="id931651" name="gunAmmo">0</integer>
+    <integer id="id764200" name="laserAmmo">0</integer>
+    <integer id="id858944" name="bombAmmo">0</integer>
+    <integer id="id502111" name="flareAmmo">0</integer>
+    <integer id="id756513" name="heatAmmo">0</integer>
+    <integer id="id145305" name="rocketAmmo">0</integer>
+    <text id="id351974" name="wpn_current">"empty"</text>
+    <boolean id="id513382" name="mb_down">false</boolean>
+    <text id="id451819" name="wpn_last" />
+    <integer id="id204696" name="numGuns">0</integer>
+  </attributes>
+</game>
